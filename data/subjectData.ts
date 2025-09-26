@@ -11,6 +11,7 @@ export const SubjectData = [
     description: "Learn the fundamentals of algebra, geometry, and calculus.",
     imageUrl: maths,
     link: "courses/mathematics",
+    courseCompleted: 90,
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const SubjectData = [
     description: "Explore the world of physics, chemistry, and biology.",
     imageUrl: science,
     link: "courses/science",
+    courseCompleted: 30,
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const SubjectData = [
     description: "Dive into ancient civilizations and modern history.",
     imageUrl: history,
     link: "courses/history",
+    courseCompleted: 10,
   },
   {
     id: 4,
@@ -32,6 +35,7 @@ export const SubjectData = [
     description: "Improve your grammar, vocabulary, and writing skills.",
     imageUrl: english,
     link: "courses/english",
+    courseCompleted: 50,
   },
   {
     id: 5,
@@ -39,5 +43,6 @@ export const SubjectData = [
     description: "Learn programming, algorithms, and data structures.",
     imageUrl: cs,
     link: "courses/computer-science",
+    courseCompleted: 1,
   },
 ];
