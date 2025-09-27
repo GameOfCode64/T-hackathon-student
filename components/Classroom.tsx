@@ -12,7 +12,7 @@ const Classroom = () => {
       {SubjectData.map((subject) => (
         <Link
           key={subject.id}
-          href={`app/${subject.link}`}
+          href={`/${subject.link}`}
           className="group bg-white shadow-md rounded-xl overflow-hidden border hover:shadow-xl transition-all duration-300"
         >
           {/* Image */}
